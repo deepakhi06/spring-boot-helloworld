@@ -1,0 +1,7 @@
+spring:
+   application:
+      name: tracinglogs  
+server:
+  port: 8111
+         
+  
