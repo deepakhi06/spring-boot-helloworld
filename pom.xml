@@ -68,6 +68,10 @@
 				<configuration>
 					<repository>${docker.image.prefix}/${project.artifactId}</repository>
 					<tag>${project.version}</tag>
+					<authConfig>
+						<username>dockerid4deepak</username>
+						<password>dockerid4deepak</password>
+					</authConfig>
 				</configuration>
 				<executions>
 					<execution>
