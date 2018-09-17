@@ -76,8 +76,10 @@
 				<executions>
 					<execution>
 						<id>default</id>
+						<phase>install</phase>
 						<goals>
 							<goal>build</goal>
+							
 							<goal>push</goal>
 						</goals>
 					</execution>
