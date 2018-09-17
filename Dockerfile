@@ -14,7 +14,7 @@ EXPOSE 8111
 ARG JAR_FILE=target/spring-boot-helloworld.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} spring-boot-helloworld.jar
+ADD target/spring-boot-helloworld.jar spring-boot-helloworld.jar
 
 # Run the jar file 
 ENTRYPOINT ["java","-jar","/spring-boot-helloworld.jar"]
