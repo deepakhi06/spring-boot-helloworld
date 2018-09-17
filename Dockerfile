@@ -11,7 +11,7 @@ VOLUME /tmp
 EXPOSE 8111
 
 # The application's jar file
-ARG JAR_FILE=target/spring-boot-helloworld.jar
+#ARG JAR_FILE=target/spring-boot-helloworld.jar
 
 # Add the application's jar to the container
 ADD target/spring-boot-helloworld.jar spring-boot-helloworld.jar
