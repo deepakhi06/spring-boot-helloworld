@@ -75,7 +75,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>http://registry.hub.docker.com/${docker.image.prefix}/${project.artifactId}</repository> 
+					<repository>${docker.image.prefix}/${project.artifactId}</repository> 
 					<tag>${project.version}</tag>
 					<!-- <buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
