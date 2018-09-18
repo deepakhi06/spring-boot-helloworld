@@ -70,7 +70,7 @@
 					<tag>${project.version}</tag>
 					<authConfig>
 						<username>dockerid4deepak</username>
-						<password>dockerid4deepak</password>
+						<password>Shivansh@006</password>
 					</authConfig>
 				</configuration>
 				<executions>
