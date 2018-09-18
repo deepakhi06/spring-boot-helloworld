@@ -73,13 +73,9 @@
 							<goal>build</goal>
 						</goals>
 						<configuration>
-							<images>
-								<image>
-									<name>${docker.image.prefix}:${project.version}</name>
-								</image>
-							</images>	
-										<!-- <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-										<tag>${project.version}</tag> -->
+							
+										<image>${docker.image.prefix}/${project.artifactId}</image>
+										<tag>${project.version}</tag>
 										<!-- <repository>${docker.image.prefix}/${project.artifactId}</repository> 
 											<tag>${project.version}</tag> <authConfig> <username>dockerid4deepak</username> 
 											<password>Shivansh@006</password> </authConfig> <registry>registry.hub.docker.com/dockerid4deepak</registry> -->
