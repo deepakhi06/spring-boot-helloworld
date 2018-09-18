@@ -72,6 +72,7 @@
 						<username>dockerid4deepak</username>
 						<password>Shivansh@006</password>
 					</authConfig>
+					<registry>registry.hub.docker.com/dockerid4deepak</registry>
 				</configuration>
 				<executions>
 					<execution>
